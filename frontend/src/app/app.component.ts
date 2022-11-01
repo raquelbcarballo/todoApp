@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HAMMER_LOADER } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+  tasks= ["tarea1", "tarea2"];
 }
