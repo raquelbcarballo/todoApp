@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { HAMMER_LOADER } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
