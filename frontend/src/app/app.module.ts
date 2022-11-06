@@ -12,13 +12,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { NewTaskComponent } from './new-task/new-task.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TaskListComponent } from './task-list/task-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskComponent,
     NewTaskComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    TaskListComponent
   ],
   imports: [
     BrowserModule,

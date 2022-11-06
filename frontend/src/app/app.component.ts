@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
-  tasks= ["tarea1", "tarea2"];
 }
